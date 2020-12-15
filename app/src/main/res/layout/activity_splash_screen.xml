@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/gradanim"
+    android:background="@drawable/gradientanimation"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/car"
+            android:layout_width="303dp"
+            android:layout_height="291dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="212dp"
+            android:layout_marginBottom="228dp"
+            android:src="@drawable/car"
+            android:translationX="350dp" />
+
+        <LinearLayout
+            android:layout_marginTop="400dp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/Htext2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="peedo"
+                android:textStyle="bold"
+                android:id="@+id/real"
+                android:textColor="#F3F1F1"
+                android:textSize="40sp"
+                android:translationY="100dp" />
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/Htext3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="eter"
+                android:textStyle="bold"
+                android:id="@+id/driver"
+                android:textColor="#F6F2F2"
+                android:textSize="40sp"
+                android:translationY="-100dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:orientation="horizontal">
+
+            <com.hanks.htextview.HTextView
+                android:id="@+id/Htext1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

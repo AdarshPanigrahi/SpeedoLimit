@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <in.unicodelabs.kdgaugeview.KdGaugeView
+        android:id="@+id/speedMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:maxSpeed="180"
+        app:speed_limit="60" />
+    <in.unicodelabs.kdgaugeview.KdGaugeView
+        android:layout_marginTop="20sp"
+        android:id="@+id/speedLimitMeter"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:maxSpeed="120"
+        app:unitOfMeasurementTextSize="20dp"
+        app:speed="65"
+        app:speed_limit="60" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="300sp"
+        android:layout_height="150sp"
+        android:src="@drawable/car99"/>
+
+</LinearLayout>
