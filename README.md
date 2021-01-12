@@ -9,4 +9,4 @@ As soon as the current speed crosses the speed limit the device warns the driver
 
 ## Screenshots
 
-<img src="Screenshots/speedlimit.png " width=480 align="left">  <img src="Screenshots/speedbreach.png" width=480 align="right">
+<img src="Screenshots/speedlimit.png " width=450 align="left">  <img src="Screenshots/speedbreach.png" width=450 align="right">
